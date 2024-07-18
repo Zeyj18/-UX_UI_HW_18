@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ===( CODE AASHU )=== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>ZEYNA</title>
+    <style>
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+        
+        .why__image img {
+            width: 356px;
+            height: 500px;
+        }
+        
+        header::before {
+            background-image: none;
+        }
+        
+        #img1 img {
+            width: 374;
+            height: 474;
+        }
+        
+        .contact {
+            margin: 50px 0;
+            text-align: center;
+        }
+        
+        .contact-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .contact-form input[type="submit"] {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            width: auto;
+            padding: 10px 20px;
+            cursor: pointer;
+            align-self: flex-start;
+            margin-left: 380px;
+        }
+        
+        .contact-form input[type="submit"]:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__logo">
+
+            <span style="font-size: 24px; font-weight:bold !important;">Home </span>
+        </div>
+        <ul class="nav__links" style="font-size: 24px; font-weight:bold !important">
+
+            <li class="link"><a href="#why">Projects</a></li>
+
+            <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <div class="section__container header__container">
+            <div class="header__content">
+                <h2>HI I’M ZEYNA
+                </h2>
+                <h1>UX / UI Designer</h1>
+                <p style="font-size: 18px; font-weight:bold;">My innate curiosity about the world's workings earned me the nickname "curious cat," leading me to a journey ultimately revealing my true calling: innovating the interface between users and technology.</p>
+                <div class="boxes">
+                    <div class="b1">
+                        <h3 style="color: white; font-size:26px; font-weight:bold;">Product Design</h3>
+                    </div>
+                    <div class="b2">
+                        <h3 style="color: white; font-size:26px; font-weight:bold;">Empathetic Thinker</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="header__image" style="padding-bottom: 20px;;">
+                <img src="assets/capture.png" alt="header" />
+
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <h1 style="color: white; display:flex; justify-content:center; padding-top:30px;"> Skills</h1>
+        <div class="section__container hero__container">
+            <div class="hero__card">
+
+                <h1>USER INTERFACE
+                </h1>
+                <h3>
+                    Prototyping
+                    <br> Visual Design
+                    <br> Competitive Analysis
+                </h3>
+            </div>
+            <div class="hero__card">
+                <h1>USER RESEARCH
+                </h1>
+                <h3>
+                    Storyboarding
+                    <br> Collaboration
+                    <br> Usability Testing
+                </h3>
+            </div>
+            <div class="hero__card">
+                <h1>QUALITATIVE INTERVIEWS
+
+                </h1>
+                <h3>
+                    Problem solving
+                    <br> Project Management
+                    <br> Attention to Detail
+                </h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section__container why__container" id="why">
+
+        <div class="why__content">
+            <!-- <h2 class="section__header">About Us</h2> -->
+            <h1>NON-PROFIT
+                <br> REDESIGN
+            </h1>
+            <p style="font-size: 20px; font-weight:bold;">
+                The website redesign aims to improve the donations and payments pages for a smoother, more user-friendly experience, enhancing support for MECA.
+
+            </p>
+            <button class="btn">READ CASE STUDY</button>
+        </div>
+        <div class="why__image" id="img2">
+            <img src="assets/shed2.png" alt="why yoga" />
+        </div>
+    </section>
+
+    <section class="section__container why__container">
+
+        <div class="why__content" id="img2">
+            <!-- <h2 class="section__header">About Us</h2> -->
+            <h1>THE SHED <br> MOBILE APP
+
+            </h1>
+            <p style="font-size: 20px; font-weight:bold;">
+                High outdoor equipment costs often deter regular participation. How can we make outdoor activities accessible and allow adventurers to try new hobbies.
+
+            </p>
+            <button class=" btn ">READ CASE STUDY</button>
+        </div>
+        <div class="why__image ">
+            <img src="assets/meca.png " alt="why yoga " />
+        </div>
+    </section>
+
+
+    <div class="contact ">
+        <div class="contact-title ">
+            <h2>LET'S WORK TOGETHER</h2>
+        </div>
+        <div class="contact-form ">
+            <input type="text " placeholder="Name ">
+            <input type="text " placeholder="Email ">
+            <textarea placeholder="Message " style="width: 621px;height: 260px; "></textarea>
+            <button class="btn" style="margin-right: 500px;  border-radius: none !important;">Submit</button>
+        </div>
+    </div>
+
+    <footer class="footer " id="contact">
+        <h3 style="color: white; display:flex; justify-content:center; padding-top:30px !important; font-size:30px; ">Ways to contact me</h3>
+        <div class="section__container footer__container ">
+            <!-- <div class="img-box" style="background:white; width:100%; display:flex; margin:10x 10px">
+                <img src="assets/f1.png" alt="">
+                <img src="assets/f2.png" alt="">
+                <img src="assets/f3.png" alt="">
+            </div> -->
+
+            <div class="footer__col ">
+                <div class="footer__socials " style="display: flex; margin:auto; ">
+                    <a href="# ">Email@gmail.com <pre> </pre><i class="ri-mail-fill"></i></a>
+                    <a href="# ">Instagram <pre>  </pre><i class="ri-instagram-line "></i></a>
+                    <a href="# ">Linkedin Accont   <pre> </pre><i class="ri-linkedin-fill "></i></a>
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="section__container footer__bar ">
+            Copyright © ZEYNA. All rights reserved.
+        </div> -->
+    </footer>
+
+    <script src="main.js "></script>
+</body>
+
+</html>
